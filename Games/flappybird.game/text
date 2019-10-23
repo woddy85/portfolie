@@ -1,0 +1,23 @@
+if (score > parseInt(localStorage.getItem('highscore'), 10)) {
+  localStorage.setItem('highscore', score);
+}
+
+
+
+/*if (highscore !== null) {
+    if (score > highscore) {
+      localStorage.setItem("highscore", score);
+    } else {
+      localStorage.setItem("highscore");
+    }
+  }*/
+
+
+
+  isStorage && localStorage.setItem("fap-scores" , element.scores);
+
+
+  //const isStorage = "undefined" !== typeof localStorage;
+  //if (isStorage && localStorage.getItem("fap-scores")) {
+   // Element.scores = localStorage.getItem("fap-scores").split(",");
+  //
